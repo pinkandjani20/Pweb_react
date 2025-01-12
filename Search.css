@@ -1,0 +1,192 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@400;600&display=swap');
+
+/* Search Container */
+.search-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.search-container:hover {
+  transform: scale(1.02);
+}
+
+/* Header Styles */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  color: #6a11cb;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Search Form Styles */
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.search-form input {
+  width: 70%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-form input:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 10px rgba(106, 17, 203, 0.3);
+  outline: none;
+}
+
+.search-form button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.search-form button:hover {
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+  transform: translateY(-2px);
+}
+
+/* Book List Styles */
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.book-item {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background: #f9f9f9;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.book-item h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #6a11cb;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.book-item p {
+  margin-bottom: 10px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.book-item button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.book-item button:hover {
+  background: #6a11cb;
+  transform: translateY(-2px);
+}
+
+/* Modal Styles */
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.ReactModal__Content {
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.ReactModal__Content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  color: #6a11cb;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ReactModal__Content p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.ReactModal__Content form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ReactModal__Content form label {
+  font-size: 1rem;
+  color: #555;
+  font-weight: bold;
+}
+
+.ReactModal__Content form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ReactModal__Content form input:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 10px rgba(106, 17, 203, 0.3);
+  outline: none;
+}
+
+.ReactModal__Content form button {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.ReactModal__Content form button:hover {
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+  transform: translateY(-2px);
+}

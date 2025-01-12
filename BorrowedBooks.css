@@ -1,0 +1,45 @@
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .primary-btn {
+    background: #6a11cb;
+    color: #fff;
+    border: none;
+  }
+  
+  .primary-btn:hover {
+    background: #2575fc;
+  }
+  
+  .secondary-btn {
+    background: #fff;
+    color: #2575fc;
+    border: 2px solid #2575fc;
+  }
+  
+  .secondary-btn:hover {
+    background: #2575fc;
+    color: #fff;
+  }
+  
+  /* Error Message */
+  .error {
+    color: #ff4b4b;
+    background: #ffe6e6;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
